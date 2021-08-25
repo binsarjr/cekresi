@@ -1,4 +1,4 @@
-module github.com/binsarjr/cekresi
+module binsarjr/cekresi
 
 go 1.16
 

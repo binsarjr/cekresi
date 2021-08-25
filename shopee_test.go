@@ -18,7 +18,6 @@ func TestShopeeXpress(t *testing.T) {
 	t.Run("retcode == 0", func(t *testing.T) {
 		assert.Equal(t, 0, shopee.Retcode)
 	})
-	assert.Equal(t, resi, shopee.Data.SlsTrackingNumber)
 	t.Run("resi == tracknumber", func(t *testing.T) {
 		assert.Equal(t, resi, shopee.Data.SlsTrackingNumber)
 	})

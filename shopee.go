@@ -72,7 +72,6 @@ func request(resi string, trackingNumber string) (response, error) {
 	err = json.NewDecoder(resp.Body).Decode(&data)
 	if err != nil {
 		return data, err
-
 	}
 	return data, nil
 }
